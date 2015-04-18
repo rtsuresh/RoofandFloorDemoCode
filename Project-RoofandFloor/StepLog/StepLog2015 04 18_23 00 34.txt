@@ -1,0 +1,52 @@
+Running LocalitySearchExactMatch
+
+Step Number: 1
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 2
+Step Description: Search for the Locality and click on the searched Locality.
+Step Actual Result: The searched Locality is clicked successfully.
+Step Expected Result: The searched Locality should be clicked successfully.
+Test Step Pass
+
+Step Number: 3
+Step Description: Verify if the searched locality is added in the Locality box.
+Step Actual Result: The searched Locality is added successfully.
+Step Expected Result: The searched Locality should be added successfully.
+Test Step Pass
+
+Step Number: 4
+Step Description: Click on 'Search Properties' and Verify search result heading.
+Step Actual Result: 'Search Properties' is clicked and the search result heading is verified.
+Step Expected Result: 'Search Properties' should be clicked and the search result heading should be verified.
+Test Step Pass
+
+Running LocalitySearchPartialMatch
+
+Step Number: 5
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 6
+Step Description: Search for the Locality and click on the searched Locality.
+Step Actual Result: The searched Locality is clicked successfully.
+Step Expected Result: The searched Locality should be clicked successfully.
+Test Step Pass
+
+Step Number: 7
+Step Description: Verify if the searched locality is added in the Locality box.
+Step Actual Result: The searched Locality is added successfully.
+Step Expected Result: The searched Locality should be added successfully.
+Test Step Pass
+
+Step Number: 8
+Step Description: Click on 'Search Properties' and Verify search result heading.
+Step Actual Result: 'Search Properties' is clicked and the search result heading is verified.
+Step Expected Result: 'Search Properties' should be clicked and the search result heading should be verified.
+Test Step Pass
+

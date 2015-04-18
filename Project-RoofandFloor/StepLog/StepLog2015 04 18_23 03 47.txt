@@ -1,0 +1,51 @@
+Running Test Case: LocalitySearchExactMatch
+
+Step Number: 1
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 2
+Step Description: Search for the Locality and click on the searched Locality.
+Step Actual Result: The searched Locality is clicked successfully.
+Step Expected Result: The searched Locality should be clicked successfully.
+Test Step Fail
+The Locality 'Adyar' was not input successfully in the search box. (Exception Details:org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //div[@id='s2id_combobox3']//input
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'channu-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5c61b9a2-002d-497f-a700-6914135e2026:Timed out after 10 seconds waiting for presence of element located by: By.xpath: //div[@id='s2id_combobox3']//input
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'channu-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.4, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5c61b9a2-002d-497f-a700-6914135e2026)
+
+Running Test Case: LocalitySearchPartialMatch
+
+Step Number: 1
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 2
+Step Description: Search for the Locality and click on the searched Locality.
+Step Actual Result: The searched Locality is clicked successfully.
+Step Expected Result: The searched Locality should be clicked successfully.
+Test Step Pass
+
+Step Number: 3
+Step Description: Verify if the searched locality is added in the Locality box.
+Step Actual Result: The searched Locality is added successfully.
+Step Expected Result: The searched Locality should be added successfully.
+Test Step Pass
+
+Step Number: 4
+Step Description: Click on 'Search Properties' and Verify search result heading.
+Step Actual Result: 'Search Properties' is clicked and the search result heading is verified.
+Step Expected Result: 'Search Properties' should be clicked and the search result heading should be verified.
+Test Step Pass
+
